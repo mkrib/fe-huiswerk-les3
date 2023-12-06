@@ -1,1 +1,79 @@
 /*Schrijf hier jouw css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --space-cadet: #151E3F;
+    --oxford-blue: #030027;
+    --beige: #F2F3D9;
+    --buff: #DC9E82;
+    --old-rose: #C16E70;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--beige);
+}
+
+nav {
+    background-color: var(--oxford-blue);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 40px;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    flex-basis: 400px;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 40px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+article {
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--old-rose);
+    height: 350px;
+    max-width: 280px;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 10px;
+    padding: 0 15px 10px 15px;
+}
+
+/* Hoe zorg ik ervoor dat mijn tekst niet meer uit mijn article kan vallen wanneer het scherm smaller wordt? */
+

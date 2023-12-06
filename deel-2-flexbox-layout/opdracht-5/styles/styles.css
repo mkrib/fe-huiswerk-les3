@@ -1,1 +1,49 @@
-/*Schrijf hier jouw CSS*/
+/* Opdracht 5 */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+footer {
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    flex-basis: 60%;
+    order: 1;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+nav {
+    flex-basis: 20%;
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+aside {
+    flex-basis: 20%;
+    order: 2;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/* Hoe laat ik de main de pagina vullen?*/
+
+
